@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    font-family: "Livvic", serif;
+    /* background-color: #ADB0B0; */
+}
+header{
+    width: 1418px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: ADB0B0; */
+}
+.header{
+    width: 1418px;
+    height: 64px;
+    /* border: 1px solid black; */
+    /* margin-left: 155px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    width: 123px;
+    height: 52px;
+}
+.header ul{
+    display: flex;
+    gap: 90px;
+    font-size: 24px;
+    align-items: center;
+}
+.header ul button{
+    width: 168px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+
+
+.section{
+    width: 1418px;
+    height: 777px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.section__div{
+    width: 613px;
+    height: 522px;
+    /* border: 1px solid red; */
+    margin-top: 144px;
+}
+.section__div h1{
+    font-size: 76px;
+    color: white;
+    height: 104px;
+}
+.section__div h3{
+    font-size: 52px;
+    color: white;
+    height: 60px;
+    margin-top: 6px;
+}
+.section__div p{
+    font-size: 24px;
+    color: #1C1415CC;
+    font-weight: 600;
+    line-height: 45px;
+    height: 138px;
+    margin-top: 70px;
+}
+.section__div h2{
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+    line-height: 95px;
+    height: 96px;
+    margin-top: 48px;
+}
+.section__div img{
+    margin-top: 69px;
+    width: 240px;
+    height: 60px;
+}
+
+
+.swiper{
+    width: 499px;
+    height: 619px;
+    /* border: 1px solid black; */
+    margin-top: 158px;
+}
+
+.swiper-slide img{
+    width: 499px;
+    height: 619px;
+}
